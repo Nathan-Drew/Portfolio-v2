@@ -94,7 +94,7 @@
     }
 
     .split {
-    	height: 5px;
+    	display: none;
     }
 
     #viewer {
