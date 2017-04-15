@@ -1,0 +1,106 @@
+* {
+	text-align: center;
+	font-family: verdana;
+}
+
+.square, .circle, .triangle {
+	opacity: 0.1;
+	position: relative;
+	margin: 5%;
+}
+
+.square, .circle {
+	height: 100px; width: 100px;
+	opacity: 0.5;
+}
+
+.square {
+	background-color: #b21b03;
+	float: left;
+	left: 8%;
+}
+
+.circle {
+	background-color: #0c9105;
+	float: right;
+	border-radius: 100%;
+	top: 15%;
+}
+
+.triangle {
+	width: 1px;
+	height: 1px;
+	border-bottom: 100px solid #0b5089;
+	border-right: 100px solid transparent;
+	bottom: 7%;
+	opacity: 0.5;
+	position: absolute;
+}
+
+#shape-space {
+	width: 77%;
+	height: 100%;
+	position: absolute;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.contents {
+	width: 100%;
+	height: 65%;
+	padding: 12% 8%;
+}
+
+#contactSection > ul, li {
+	list-style-type: none; 
+	margin: 50px;
+	display: block;
+	position: relative;
+	font-size: 1.3em;
+}
+
+.split {
+	height: 100px;
+}
+
+#projectSection, #contactSection {
+	display: none;
+}
+
+.navbutton {
+	width: 50%;
+	border: 5px solid #a31803;
+	border-radius: 5px;
+	padding: 3%;
+	opacity: 0.8;
+	font-size: 1.5em;
+	transition: 0.5s;
+	margin: 5px auto;
+}
+
+.navbutton:hover {
+	background-color: #aa7e77;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .navbutton {
+    	font-size: 1em;
+    }
+
+    .break {
+    	height: 5px;
+    }
+
+    #viewer {
+    	overflow: visible;
+    	border: none;
+    }
+
+    .contents {
+    	height: 50%;
+    }
+}
+
