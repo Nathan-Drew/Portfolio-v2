@@ -78,7 +78,6 @@
 	font-size: 1.5em;
 	transition: 0.5s;
 	margin: 5px auto;
-	clear: both;
 }
 
 .navbutton:hover {
@@ -102,7 +101,7 @@
     }
 
     .contents {
-    	height: 65%;
+    	height: 50%;
     }
 }
 
