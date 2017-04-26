@@ -48,9 +48,13 @@
 .contents {
 	width: 100%;
 	height: 65%;
-	padding: 12% 8%;
+	padding: 4% 8%;
 	display: block;
 	clear: left;
+}
+
+#aboutSection, #contactSection {
+	padding-top: 8%;
 }
 
 #contactSection > ul, li {
@@ -69,18 +73,26 @@
 	display: none;
 }
 
-.navbutton {
-	width: 50%;
+.projectStudy, .navbutton {
 	border: 5px solid #a31803;
 	border-radius: 5px;
-	padding: 3%;
 	opacity: 0.8;
-	font-size: 1.5em;
 	transition: 0.5s;
+	padding: 3%;
 	margin: 5px auto;
 }
 
-.navbutton:hover {
+#projectSection a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbutton {
+	width: 50%;
+	font-size: 1.5em;
+}
+
+.navbutton:hover, .projectStudy:hover {
 	background-color: #aa7e77;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
@@ -104,4 +116,3 @@
     	height: 50%;
     }
 }
-
